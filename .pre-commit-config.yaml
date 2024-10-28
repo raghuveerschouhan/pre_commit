@@ -1,1 +1,5 @@
-
+repos:
+-   repo: https://github.com/raghuveerschouhan/pre_commit
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
