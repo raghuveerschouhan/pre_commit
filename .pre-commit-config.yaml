@@ -2,3 +2,6 @@ repos:
 -   repo: https://github.com/raghuveerschouhan/pre_commit
     hooks:
     -   id: check-yaml
+        description: Detect errors/secrets in your data.
+        language: system
+        stages: ["commit", "push"]
